@@ -3,6 +3,8 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 
-from .models import Vote
+from .models import Vote, ConstituencyUrl, PrivateKey
 
 admin.site.register(Vote)
+admin.site.register(ConstituencyUrl)
+admin.site.register(PrivateKey)

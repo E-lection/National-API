@@ -112,8 +112,8 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # SSL Setup
 # SECURE_SSL_REDIRECT = True  # requests over HTTP are redirected to HTTPS
 # Use 'secure' cookies
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
